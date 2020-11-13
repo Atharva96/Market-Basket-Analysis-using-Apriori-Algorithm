@@ -22,3 +22,9 @@ Support: This says how popular an itemset is, as measured by the proportion of t
 Confidence: This says how likely item Y is purchased when item X is purchased, expressed as {X -> Y}. This is measured by the proportion of transactions with item X, in which item Y also appears.
 
 Lift: This says how likely item Y is purchased when item X is purchased while controlling for how popular item Y is.
+
+
+
+fig = px.sunburst(market, path=['year', 'month', 'day_of_week'],title="Don't forget to bring the cursor on the chart")
+fig.show()
+
