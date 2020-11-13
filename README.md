@@ -28,3 +28,6 @@ Lift: This says how likely item Y is purchased when item X is purchased while co
 fig = px.sunburst(market, path=['year', 'month', 'day_of_week'],title="Don't forget to bring the cursor on the chart")
 fig.show()
 
+
+![newplot](https://user-images.githubusercontent.com/46940879/99067295-5f602c00-25a2-11eb-81cd-fc1e02897276.png)
+
