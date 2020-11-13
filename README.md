@@ -44,3 +44,5 @@ fig = px.pie(
 )
 fig.show()
 
+
+![newplot (1)](https://user-images.githubusercontent.com/46940879/99067477-b534d400-25a2-11eb-86a6-9cd6a3c90eaa.png)
