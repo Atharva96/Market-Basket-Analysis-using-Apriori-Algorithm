@@ -31,3 +31,16 @@ fig.show()
 
 ![newplot](https://user-images.githubusercontent.com/46940879/99067295-5f602c00-25a2-11eb-81cd-fc1e02897276.png)
 
+
+
+targets = list(dict(market['itemDescription'].value_counts()).keys())
+values = list(dict(market['itemDescription'].value_counts()).values())
+
+fig = px.pie(
+    values=values, 
+    names=targets,
+    title='Item Detail Discription',
+    color_discrete_sequence=['goldenrod', 'magenta']
+)
+fig.show()
+
